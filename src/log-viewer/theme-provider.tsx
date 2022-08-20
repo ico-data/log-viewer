@@ -17,19 +17,20 @@ interface ThemeProps extends React.PropsWithChildren {
 
 const ThemeProvider: React.FC<ThemeProps> = function (props) {
 	const { theme, children } = props;
-	const [globalTheme, setGlobalTheme] = React.useState(theme);
+	const [themeMode, setThemeMode] = React.useState(theme);
 
-	const themeVal = React.useMemo(() => viewerTheme[globalTheme], [globalTheme]);
+	const themeVal = React.useMemo(() => viewerTheme[themeMode], [themeMode]);
+
 
 	const updateTheme = (mode: GlobalThemeMode) => {
-		setGlobalTheme(mode);
+		setThemeMode(mode);
 	};
 
 	return (
 		<ThemeContext.Provider
 			value={{
 				theme: themeVal,
-				mode: theme,
+				mode: themeMode,
 				upDateTheme: updateTheme
 			}}
 		>
