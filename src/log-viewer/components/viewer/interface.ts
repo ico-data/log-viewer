@@ -3,4 +3,5 @@ export interface ViewerProps {
   rowHeight?: number;
   height?: number | string;
   width?: number | string;
+  hiddenThemeBtn?: boolean;
 }

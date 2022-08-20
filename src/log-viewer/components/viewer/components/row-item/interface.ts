@@ -5,6 +5,7 @@
  */
 export interface RowItemProps {
   rowData: LogJsonItem | LogLongText;
+  rowHeight: number;
   jsonRowStyles?: {
     row?: React.CSSProperties;
     ip?: React.CSSProperties;
