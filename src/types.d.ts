@@ -61,8 +61,10 @@ interface ThemeBase {
       };
     };
   };
+}
+
+type GlobalThemeMode = "night" | "light"
+type GlobalThemePropType = {
+  themeVal: ThemeBase
 };
-
-type GlobalThemeMode = 'night' | 'light'
-
 type GlobalTheme = Record<GlobalThemeMode, ThemeBase>;
