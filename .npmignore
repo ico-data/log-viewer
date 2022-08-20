@@ -1,0 +1,6 @@
+src/main.tsx
+tsconfig.json
+index.html
+.eslintrc
+vite.*
+.gitignore
