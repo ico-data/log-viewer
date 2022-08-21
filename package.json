@@ -1,10 +1,10 @@
 {
-  "name": "log-viewer",
+  "name": "@ico-data/log-viewer",
   "version": "0.0.0",
   "type": "module",
   "main": "./lib/dist/log-viewer.es.js",
   "module": "./lib/dist/log-viewer.e.js",
-  "types": "./lib/dist/log-viewer.es.d.ts",
+  "types": "./lib/dist/types.es.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,7 +12,7 @@
   },
   "files": [
     "lib/dist/*",
-    "README_ZH.md"
+    "README.md"
   ],
   "dependencies": {
     "@tanstack/react-virtual": "^3.0.0-beta.18",
