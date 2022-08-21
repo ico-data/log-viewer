@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Row = styled.div<{ height: number }>`
-  max-height: ${(props) => props.height}px;
+  -height: ${(props) => props.height}px;
+  box-sizing: border-box;
   font-size: 12px;
   padding: 8px 12px;
   border: 1px solid #ccc;

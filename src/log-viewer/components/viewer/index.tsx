@@ -10,7 +10,7 @@ export const defaultViewerConfig = {
 	width: "100%",
 	logData: [],
 	height: 600,
-	rowHeight: 92,
+	rowHeight: 96,
 	hiddenThemeBtn: false,
 };
 
@@ -68,7 +68,6 @@ const Viewer: React.FC<I.ViewerProps> = function (props) {
 									top: 0,
 									left: 0,
 									width: "100%",
-									height: `${virtualItem.size}px`,
 									transform: `translateY(${virtualItem.start}px)`,
 								}}
 							>

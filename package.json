@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "main": "./lib/dist/log-viewer.es.js",
-  "module": "./lib/dist/log-viewer.e.js",
-  "types": "./lib/dist/types.es.d.ts",
+  "module": "./lib/dist/log-viewer.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
