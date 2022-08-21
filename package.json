@@ -15,6 +15,27 @@
     "lib/dist/*",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ico-data/log-viewer.git"
+  },
+  "keywords": [
+    "request",
+    "axios",
+    "fetch",
+    "localstorage",
+    "sessionstorage",
+    "error-handler",
+    "utils",
+    "http",
+    "storage"
+  ],
+  "author": "baiziyu-fe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ico-data/log-viewer/issues"
+  },
+  "homepage": "https://github.com/ico-data/log-viewer#readme",
   "dependencies": {
     "@tanstack/react-virtual": "^3.0.0-beta.18",
     "less": "^4.1.3",
