@@ -1,6 +1,6 @@
 {
   "name": "@ico-data/log-viewer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "main": "./lib/dist/log-viewer.es.js",
   "module": "./lib/dist/log-viewer.es.js",
