@@ -20,15 +20,9 @@
     "url": "git+https://github.com/ico-data/log-viewer.git"
   },
   "keywords": [
-    "request",
-    "axios",
-    "fetch",
-    "localstorage",
-    "sessionstorage",
-    "error-handler",
-    "utils",
-    "http",
-    "storage"
+    "log",
+    "log-list",
+    "log preview"
   ],
   "author": "baiziyu-fe",
   "license": "MIT",
