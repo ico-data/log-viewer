@@ -1,6 +1,5 @@
 import * as React from "react";
 import LogViewer, { messageType } from "./log-viewer";
-import "./App.css";
 
 function generateData() {
 	const logList: LogJsonList = [];
