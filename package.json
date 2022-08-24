@@ -1,19 +1,41 @@
 {
   "name": "@ico-data/log-viewer",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "type": "module",
   "main": "./lib/dist/log-viewer.es.js",
-  "module": "./lib/dist/log-viewer.e.js",
-  "types": "./lib/dist/types.es.d.ts",
+  "module": "./lib/dist/log-viewer.es.js",
+  "types": "./dist/lib/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "post:version": "git push && git push --tags"
   },
   "files": [
     "lib/dist/*",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ico-data/log-viewer.git"
+  },
+  "keywords": [
+    "request",
+    "axios",
+    "fetch",
+    "localstorage",
+    "sessionstorage",
+    "error-handler",
+    "utils",
+    "http",
+    "storage"
+  ],
+  "author": "baiziyu-fe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ico-data/log-viewer/issues"
+  },
+  "homepage": "https://github.com/ico-data/log-viewer#readme",
   "dependencies": {
     "@tanstack/react-virtual": "^3.0.0-beta.18",
     "less": "^4.1.3",
@@ -34,6 +56,7 @@
     "eslint-plugin-react": "^7.30.1",
     "prettier": "2.7.1",
     "typescript": "^4.6.4",
-    "vite": "^3.0.7"
+    "vite": "^3.0.7",
+    "vite-plugin-dts": "^1.4.1"
   }
 }

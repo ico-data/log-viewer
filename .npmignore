@@ -1,4 +1,6 @@
 src/main.tsx
+src/app.tsx
+src/vite-ent.d.ts
 tsconfig.json
 index.html
 .eslintrc

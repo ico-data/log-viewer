@@ -1,6 +1,5 @@
 import * as React from "react";
 import LogViewer, { messageType } from "./log-viewer";
-import "./App.css";
 
 function generateData() {
 	const logList: LogJsonList = [];
@@ -17,12 +16,14 @@ function generateData() {
 	return logList;
 }
 
-const App:React.FC = () => {
+const App: React.FC = () => {
 	return (
 		<div className="App">
 			<h1>LogViewer</h1>
+			<div style={{width: 600}}>
+				<LogViewer logData={generateData()} />
+			</div>
 
-			<LogViewer logData={generateData()} />
 		</div>
 	);
 };
