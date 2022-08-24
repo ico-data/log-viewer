@@ -25,13 +25,15 @@ function App () {
 
 其中`JsonLogObject`可支持的类型为：
 ```js
+const messageType = ["WARNING", "ERROR", "SUCCESS", "GENERAL", "INFO"];
+
 {
-      time: Date(),
-			message: "DevTools failed to load source map: Could not load content for https://github.githubassets.com/assets/light_tritanopia-ec62ec1d425f.css.map: Load canceled due to load timeout",
-			ip: "132.3.4.33.231",
-			port: "8000",
-			type: messageType[Math.floor(Math.random() * 10) % 5] as LogJsonItemType,
-			serviceName: "react-virtualized@9.22.",
+  time: Date(),
+  message: "DevTools failed to load source map: Could not load content for https://github.githubassets.com/assets/light_tritanopia-ec62ec1d425f.css.map: Load canceled due to load timeout",
+  ip: "132.3.4.33.231",
+  port: "8000",
+  type: messageType[Math.floor(Math.random() * 10) % 5] as LogJsonItemType,
+  serviceName: "react-virtualized@9.22.",
 }
 ```
 
